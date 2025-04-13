@@ -1,0 +1,16 @@
+[project]
+name = "kubemetrics-exporter"
+version = "0.1.0"
+description = "KubeMetrics Exporter - Kubernetes metrics exporter for Prometheus"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "kubernetes",
+    "prometheus-client",
+    "requests",
+    "urllib3"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
