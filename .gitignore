@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# uv.lock - Python 패키지 매니저 uv의 락 파일
+uv.lock
